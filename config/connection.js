@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 const Sequelize = require('sequelize');
 
 let sequelize;
@@ -13,7 +13,6 @@ let sequelize;
       port: 3306,
     },
   );
-}
 
 const databaseUrl = 'mongodb://[[USERNAME]]:[[PASSWORD]]@[[URL_1]],[[URL_2]],[[URL_3]]/[[COLLECTION_NAME]]?'+
     'replicaSet=[[REPLICA_SET_NAME]]&'+
