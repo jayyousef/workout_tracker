@@ -14,10 +14,5 @@ let sequelize;
     },
   );
 
-const databaseUrl = 'mongodb://[[USERNAME]]:[[PASSWORD]]@[[URL_1]],[[URL_2]],[[URL_3]]/[[COLLECTION_NAME]]?'+
-    'replicaSet=[[REPLICA_SET_NAME]]&'+
-    'ssl=true&authSource=admin';
-const collections = ["zoo"];
-
 module.exports = sequelize;
 
